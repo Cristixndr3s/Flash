@@ -1,0 +1,123 @@
+/*--------------------------------------------------------------
+# Estrategia Section
+--------------------------------------------------------------*/
+#servicio {
+  width: 100%;
+  height: 100vh;
+  background: url("../images/hero2-bg.jpg") top right no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#servicio .container{
+  border-left: 1px solid #fff;
+}
+
+@media (min-width: 992px) {
+  #servicio {
+    padding-left: 160px;
+
+  }
+}
+
+#servicio:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#servicio h2 {
+  margin: 0;
+  margin-left: 20px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70px;
+  color: #fff;
+}
+
+#servicio p {;
+  color: #fff;
+  width: 600px;
+  margin: 15px 0 0 20px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+#servicio p span {
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+#servicio .social-links {
+  margin-top: 30px;
+}
+
+#servicio .social-links a {
+  font-size: 24px;
+  display: inline-block;
+  color: #fff;
+  line-height: 1;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+#servicio .social-links a:hover {
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  #servicio {
+    text-align: center;
+  }
+  #servicio h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  #servicio p {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Cliens
+--------------------------------------------------------------*/
+.cliens {
+  background: rgba(0,0,0,0.0);
+}
+
+.cliens {
+  padding: 12px 0;
+  text-align: left;
+}
+
+.cliens img {
+  max-width: 12%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  margin: 15px;
+  -webkit-filter: grayscale(100);
+  filter: grayscale(100);
+}
+
+.cliens img:hover {
+  -webkit-filter: none;
+  filter: none;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .cliens img {
+    max-width: 10%;
+  }
+  .cliens {
+
+    text-align: center;
+  }
+}
