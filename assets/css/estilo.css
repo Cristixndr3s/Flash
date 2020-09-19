@@ -4,7 +4,7 @@
 #servicio {
   width: 100%;
   height: 100vh;
-  background: url("../images/hero2-bg.jpg") top right no-repeat;
+  background: url("../img/hero2-bg.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -39,10 +39,10 @@
 }
 
 #servicio p {;
-  color: #fff;
+  color: #a0a1a1;
   width: 800px;
   margin: 30px 0 0 20px;
-  font-size: 14px;
+  font-size: 15px;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -77,11 +77,444 @@
     line-height: 36px;
   }
   #servicio p {
+    width: auto;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 12px;
     line-height: 24px;
   }
 }
+
+/*--------------------------------------------------------------
+# Estrategia Section
+--------------------------------------------------------------*/
+#Estrategia {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/hero-bg.jpg") top right no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#Estrategia .container{
+  border-left: 1px solid #fff;
+}
+
+@media (min-width: 992px) {
+  #Estrategia {
+    padding-left: 160px;
+
+  }
+}
+
+#Estrategia:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#Estrategia h2 {
+  margin: 0;
+  margin-left: 20px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70px;
+  color: #000;
+}
+
+#Estrategia p {;
+  color: #a0a1a1;
+  width: 800px;
+  margin: 30px 0 0 20px;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#Estrategia p span {
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+#Estrategia .social-links {
+  margin-top: 30px;
+}
+
+#Estrategia .social-links a {
+  font-size: 24px;
+  display: inline-block;
+  color: #fff;
+  line-height: 1;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+#Estrategia .social-links a:hover {
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  #Estrategia {
+    text-align: center;
+  }
+  #Estrategia h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  #Estrategia p {
+    width: auto;
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Estrategia Section
+--------------------------------------------------------------*/
+#Marketing {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/hero2-bg.jpg") top right no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#Marketing .container{
+  border-left: 1px solid #fff;
+}
+
+@media (min-width: 992px) {
+  #Marketing {
+    padding-left: 160px;
+
+  }
+}
+
+#Marketing:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#Marketing h2 {
+  margin: 0;
+  margin-left: 20px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70px;
+  color: #000;
+}
+
+#Marketing p {;
+  color: #a0a1a1;
+  width: 800px;
+  margin: 30px 0 0 20px;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#Marketing p span {
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+#Marketing .social-links {
+  margin-top: 30px;
+}
+
+#Marketing .social-links a {
+  font-size: 24px;
+  display: inline-block;
+  color: #fff;
+  line-height: 1;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+#Marketing .social-links a:hover {
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  #Marketing {
+    text-align: center;
+  }
+  #Marketing h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  #Marketing p {
+    width: auto;
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Estrategia Section
+--------------------------------------------------------------*/
+#inteligence {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/hero3-bg.jpg") top right no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#inteligence .container{
+  border-left: 1px solid #fff;
+}
+
+@media (min-width: 992px) {
+  #inteligence {
+    padding-left: 160px;
+
+  }
+}
+
+#inteligence:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#inteligence h2 {
+  margin: 0;
+  margin-left: 20px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70px;
+  color: #000;
+}
+
+#inteligence p {;
+  color: #a0a1a1;
+  width: 800px;
+  margin: 30px 0 0 20px;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#inteligence p span {
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+#inteligence .social-links {
+  margin-top: 30px;
+}
+
+#inteligence .social-links a {
+  font-size: 24px;
+  display: inline-block;
+  color: #fff;
+  line-height: 1;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+#inteligence .social-links a:hover {
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  #inteligence {
+    text-align: center;
+  }
+  #inteligence h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  #inteligence p {
+    width: auto;
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Estrategia Section
+--------------------------------------------------------------*/
+#web {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/hero4-bg.jpg") top right no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#web .container{
+  border-left: 1px solid #fff;
+}
+
+@media (min-width: 992px) {
+  #web {
+    padding-left: 160px;
+
+  }
+}
+
+#web:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#web h2 {
+  margin: 0;
+  margin-left: 20px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70px;
+  color: #000;
+}
+
+#web p {;
+  color: #a0a1a1;
+  width: 800px;
+  margin: 30px 0 0 20px;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#web p span {
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+#web .social-links {
+  margin-top: 30px;
+}
+
+#web .social-links a {
+  font-size: 24px;
+  display: inline-block;
+  color: #fff;
+  line-height: 1;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+#web .social-links a:hover {
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  #web {
+    text-align: center;
+  }
+  #web h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  #web p {
+    width: auto;
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Estrategia Section
+--------------------------------------------------------------*/
+#Branding {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/hero5-bg.jpg") top right no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#Branding .container{
+  border-left: 1px solid #fff;
+}
+
+@media (min-width: 992px) {
+  #Branding {
+    padding-left: 160px;
+
+  }
+}
+
+#Branding:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#Branding h2 {
+  margin: 0;
+  margin-left: 20px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70px;
+  color: #000;
+}
+
+#Branding p {;
+  color: #a0a1a1;
+  width: 800px;
+  margin: 30px 0 0 20px;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#Branding p span {
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+#Branding .social-links {
+  margin-top: 30px;
+}
+
+#Branding .social-links a {
+  font-size: 24px;
+  display: inline-block;
+  color: #fff;
+  line-height: 1;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+#Branding .social-links a:hover {
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  #Branding {
+    text-align: center;
+  }
+  #Branding h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  #Branding p {
+    width: auto;
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
+
 
 
 /*--------------------------------------------------------------
