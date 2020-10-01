@@ -1,6 +1,103 @@
 /*--------------------------------------------------------------
+# Team Section
+--------------------------------------------------------------*/
+
+#team {
+  background: red;
+}
+
+#team .title-fill:after{
+  background: red;
+  color: white;
+}
+
+#team .member {
+  text-align: center;
+  margin-bottom: 20px;
+  background: none;
+  position: relative;
+  max-width: 16%;
+  padding: 0px 0;
+  margin: 15px;
+  float: left;
+}
+
+#team .member .member-info {
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s;
+  border-radius: 50%;
+}
+
+#team .member .member-info-content {
+  margin-top: -50px;
+  transition: margin 0.2s;
+}
+
+#team .member:hover .member-info {
+  background: rgba(0, 0, 0, 0.7);
+
+  opacity: 1;
+  transition: 0.4s;
+
+}
+
+#team .member:hover .member-info-content {
+  margin-top: 0;
+  transition: margin 0.4s;
+}
+
+#team .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: #fff;
+}
+
+#team .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
+
+#team .member .social {
+  margin-top: 15px;
+}
+
+#team .member .social a {
+  transition: none;
+  color: #fff;
+}
+
+#team .member .social a:hover {
+  color: #18d26e;
+}
+
+#team .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+
+
+
+
+/*--------------------------------------------------------------
 # Estrategia Section
 --------------------------------------------------------------*/
+#down .cliens {
+    text-align: center;
+
+}
+
 #servicio {
   width: 100%;
   height: 100vh;
@@ -535,13 +632,14 @@
   display: inline-block;
   padding: 15px 0;
   margin: 15px;
-  -webkit-filter: grayscale(100);
-  filter: grayscale(100);
+  -webkit-filter: none;
+  filter: none;
 }
 
 .cliens img:hover {
-  -webkit-filter: none;
-  filter: none;
+
+  -webkit-filter: grayscale(100);
+  filter: grayscale(100);
   transform: scale(1.1);
 }
 
