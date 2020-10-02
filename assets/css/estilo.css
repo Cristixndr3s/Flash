@@ -48,6 +48,11 @@
 
 }
 
+#team .eye{
+  position:absolute;
+  z-index: 1;
+}
+
 #team .member .member-info {
   opacity: 0;
   display: flex;
@@ -69,7 +74,6 @@
 
 #team .member:hover .member-info {
   background: rgba(0, 0, 0, 0.7);
-
   opacity: 1;
   transition: 0.4s;
 
@@ -622,4 +626,15 @@
 
     text-align: center;
   }
+}
+
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}}
+.eye{
+    -webkit-animation: 20s rotate linear infinite;
+    animation: 20s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
 }
