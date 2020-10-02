@@ -1,25 +1,27 @@
 /*--------------------------------------------------------------
 # Team Section
 --------------------------------------------------------------*/
-
 #team {
-  background: red;
+  background: #db0d15;
 }
 
 #team .title-fill:after{
-  background: red;
+  background: #db0d15;
   color: white;
 }
-
-#team .member {
+#team .contenedor {
+  overflow:hidden;
   text-align: center;
-  margin-bottom: 20px;
-  background: none;
+  margin:auto
+
+}
+#team .member {
+  display:inline-table;
   position: relative;
   max-width: 16%;
   padding: 0px 0;
   margin: 15px;
-  float: left;
+
 }
 
 #team .member .member-info {
@@ -78,7 +80,7 @@
 }
 
 #team .member .social a:hover {
-  color: #18d26e;
+  color: #db0d15;
 }
 
 #team .member .social i {
@@ -86,16 +88,22 @@
   margin: 0 2px;
 }
 
-
-
-
-
 /*--------------------------------------------------------------
 # Estrategia Section
 --------------------------------------------------------------*/
+#down {
+  background: white;
+}
+
+#down .title-fill:after{
+  background: white;
+}
+
 #down .cliens {
     text-align: center;
-
+}
+#down p {
+  color: black;
 }
 
 #servicio {
